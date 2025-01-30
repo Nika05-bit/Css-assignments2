@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    background: #B0D1E5;
+    border-radius: 6px;
+    box-shadow: 0px 4px 50px rgba(4, 8, 19, 0.1);
+    width: 900px;
+    padding: 20px;
+}
+.left-section {
+    width: 40%;
+    padding: 20px;
+}
+.form-container {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 50px rgba(4, 8, 19, 0.1);
+    border-radius: 6px;
+    padding: 30px;
+    width: 400px;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.form-group-inline {
+    display: flex;
+    gap: 20px;
+}
+.form-group-inline .form-group {
+    flex: 1;
+}
+.register-btn {
+    background-color: #1ABC9C;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.register-btn:hover {
+    background-color: #16A085;
+}
+.terms {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.terms a {
+    color: #3498DB;
+    text-decoration: none;
+}
